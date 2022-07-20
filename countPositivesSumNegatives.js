@@ -3,7 +3,7 @@
 function countPositivesSumNegatives(input) {
     const isAllZero = (cur) => cur === 0
 
-    if (input.length === 0 || input.every(isAllZero)) {
+    if (input === [] || input.every(isAllZero)) {
         return 'IV'
     } else {
         const positives = input.filter((i) => i > 0);
