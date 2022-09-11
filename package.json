@@ -1,0 +1,25 @@
+{
+  "name": "codewars-katas",
+  "version": "1.0.0",
+  "description": "Solutions to various Kata challenges across various tiers",
+  "main": "capandmut.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ginikachuqu/codewar-kata-solutions.git"
+  },
+  "keywords": [
+    "Kata",
+    "Challenge",
+    "Solutions",
+    "Coding"
+  ],
+  "author": "Charles Grandison Finney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ginikachuqu/codewar-kata-solutions/issues"
+  },
+  "homepage": "https://github.com/Ginikachuqu/codewar-kata-solutions#readme"
+}
