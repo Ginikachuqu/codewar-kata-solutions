@@ -13,6 +13,7 @@
 // an integer or an array, just return a description of their
 // face once Chuck finds out: 'Broken!' Go, go go!!!
 
-function onePunch(items){return items !== '' && typeof items !== 'number' && typeof items !== 'object' ? items.split(' ').sort((a, b) => a > b ? 1 : -1).map(x => x.replace(/[ae]/gi, '')).join(' ') : 'Broken!'}
+function onePunch(items){return items !== '' && typeof items == 'string' ? items.split(' ').sort((a, b) => a > b ? 1 : -1).map(x => x.replace(/[ae]/gi, '')).join(' ') : 'Broken!'}
 
-console.log(onePunch(['Friends', 'Hello']))
+console.log(onePunch(12356))
+// Brd Grnd Ht Knif Motorbik
