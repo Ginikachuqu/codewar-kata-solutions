@@ -4,9 +4,7 @@
 // You can guarantee that input is non-negative.
 
 function countBits(n: number): any {
-    let num = []
-    let dec = n.toString(2).split('').map(x => x == '1' ? num.push(x) : null)
-    return num.length
+    return n.toString(2).split('').filter(x => x == '1').length
 }
 
 console.log(countBits(3339522749242465))
